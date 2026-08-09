@@ -105,7 +105,7 @@ function start() {
     const noteCard = document.createElement("div");
     noteCard.setAttribute(
       "class",
-      `transition -all duration-300 ease-in-out bg-gray-800 rounded-2xl p-4 ${colorCheck.glow}`,
+      `transition -all duration-300 ease-in-out bg-gray-300  dark:bg-gray-800 rounded-2xl p-4 ${colorCheck.glow}`,
     );
     noteCard.dataset.id = note.id;
 
